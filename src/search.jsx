@@ -15,7 +15,7 @@ const Search = () => {
     setLoading(true);
     const options = {
       method: 'GET',
-      url:'http://localhost:5000/results',
+      url:'https://backend-hqpu.onrender.com/results',
       params: {search : searchQuery}
     }
 
