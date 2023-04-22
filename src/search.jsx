@@ -15,7 +15,7 @@ const Search = () => {
     setLoading(true);
     const options = {
       method: 'GET',
-      url:'https://kevinfasancodingchallenge.onrender.com/results',
+      url:'http://localhost:5000/results',
       params: {search : searchQuery}
     }
 
