@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    justify-content: center;
+    height: 100vh;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-height: 400px;
+    padding: 30px;
+    width: 600px;
+}
+
+.input-button-container{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 10px;
+    border: 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    outline: 0;
+    text-align: center;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+input{
+    text-transform: capitalize;
+    letter-spacing: 2.5px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.country-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+p > span{
+    font-weight: 600;
+}
+
+.flag-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flag-container img{
+    height: 100px;
+    width: 150px;
+}
+
+span {
+    padding-right: 5px;
+}
